@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'Day2/views/homescreen.dart';
 import 'day1(Animator)/views/HomeScreen/home_screnn.dart';
 
 void main() {
@@ -15,9 +16,31 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+
+      home: HomeScreen1(),
     );
   }
 }
 
 
+
+
+// Notes :
+
+// Animation :
+// Need : Attractive UI
+// 1. Implicit animation
+// => Build in Animation : Pre-defined
+// => Custom Animation
+
+
+// 2. Explicit animation
+// => Build in Animation
+// => Custom Animation : According to user need
+
+
+// Build in -> Easy to use , Custom Painter
+
+// Hero widget : Build in widget : For Navigation purpose;
+
+// when we use hero widget in navigation -> i seen like a Animation of opening
