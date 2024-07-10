@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Day2/views/homescreen.dart';
+import 'Day3/HomeSCreen/homre-Screen.dart';
 import 'day1(Animator)/views/HomeScreen/home_screnn.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
 
-      home: HomeScreen1(),
+      home: HomeScreen2(),
     );
   }
 }
@@ -26,6 +27,14 @@ class MyApp extends StatelessWidget {
 
 
 // Notes :
+
+// Animated widget :
+
+
+
+
+
+
 
 // Animation :
 // Need : Attractive UI
