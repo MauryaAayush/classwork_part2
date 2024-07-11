@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'Day2/views/homescreen.dart';
 import 'Day3/HomeSCreen/homre-Screen.dart';
+import 'Day4/HomeScreen/HomeScreen.dart';
 import 'day1(Animator)/views/HomeScreen/home_screnn.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
 
-      home: HomeScreen2(),
+      home: Homepage(),
     );
   }
 }
