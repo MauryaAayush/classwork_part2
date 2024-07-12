@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'Day2/views/homescreen.dart';
 import 'Day3/HomeSCreen/homre-Screen.dart';
 import 'Day4/HomeScreen/HomeScreen.dart';
+import 'Day5/Home_screen/PageTransitionScreen.dart';
 import 'day1(Animator)/views/HomeScreen/home_screnn.dart';
 
 void main() {
@@ -18,8 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-
-      home: Homepage(),
+      home: Pagetransitionscreen(),
     );
   }
 }
